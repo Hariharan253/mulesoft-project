@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" modified="2023-11-10T09:56:08.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="x5GNPP0S0yd6tb6mIp4o" version="21.5.2" type="device">
+  <diagram name="Page-1" id="kYc79DFJNuzs-JExVBDe">
+    <mxGraphModel dx="3497" dy="2620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="-440" width="1240" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-2" value="Flight DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="600" y="110" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-3" value="Customer DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="600" y="210" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-4" value="Payment DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="600" y="310" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D1P4x2Tr9F6RCCxiCrga-5" target="D1P4x2Tr9F6RCCxiCrga-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D1P4x2Tr9F6RCCxiCrga-5" target="D1P4x2Tr9F6RCCxiCrga-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D1P4x2Tr9F6RCCxiCrga-5" target="D1P4x2Tr9F6RCCxiCrga-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-9" value="&lt;ol&gt;&lt;li&gt;Customer DB Details&lt;/li&gt;&lt;li&gt;customer_id: primary key/auto append, unique, username: unique*, password: unique*, FirstName: string*, LastName: string, Address: string*, PhoneNumber: number*, Email: string*&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="70" y="480" width="300" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D1P4x2Tr9F6RCCxiCrga-10" target="D1P4x2Tr9F6RCCxiCrga-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D1P4x2Tr9F6RCCxiCrga-12" target="D1P4x2Tr9F6RCCxiCrga-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-12" value="/customer/get/flight" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="-150" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="D1P4x2Tr9F6RCCxiCrga-13" target="D1P4x2Tr9F6RCCxiCrga-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-13" value="/customer/login&lt;br&gt;/customer/signup" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="200" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-16" value="&lt;ol&gt;&lt;li style=&quot;&quot;&gt;customer/signup:&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Input Payload: {&quot;username&quot;: &quot;Hari123&quot;, &quot;password&quot;: &quot;1234&quot;, &quot;FirstName&quot;: &quot;Hariharan&quot;, &quot;LastName&quot;: &quot;R&quot;, &quot;PhoneNumber&quot;: 9585983635, &quot;Email&quot;: &quot;hari@gmail.com&quot;}&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Output Payload: Bearer Token&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="390" y="485" width="235" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-17" value="System API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-18" value="Process API for Customer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-19" value="&lt;ol&gt;&lt;li&gt;All your transformation Logic should be in Process Layer&lt;/li&gt;&lt;li&gt;System Layer should only do the DB CRUD Calls.&lt;/li&gt;&lt;li&gt;Price Range for Each Class&lt;/li&gt;&lt;ul&gt;&lt;li&gt;1st Class - &amp;gt; Greater than 1000$&lt;/li&gt;&lt;li&gt;Business Class -&amp;gt; 600$ - 1000$&lt;/li&gt;&lt;li&gt;Economy Class -&amp;gt; 100$ - 600$&lt;/li&gt;&lt;/ul&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="470" width="270" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-20" value="&lt;ol&gt;&lt;li&gt;Flight DB Details&lt;/li&gt;&lt;li&gt;flight_id: primary key/ auto append, FlightName: string*, DepartureDate: string*, arrivalDate: string*, AvailableSeats: Number*, ArrivalLocation: string*, DepartureLocation: string*, Price: number*&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="760" width="290" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-21" value="Customer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D1P4x2Tr9F6RCCxiCrga-22" target="D1P4x2Tr9F6RCCxiCrga-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-22" value="/flight/add-flight" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="10" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-23" value="Our Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.683;entryY=1.089;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D1P4x2Tr9F6RCCxiCrga-24" target="D1P4x2Tr9F6RCCxiCrga-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-27" value="Process API for Flight" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-30" value="&lt;ol&gt;&lt;li style=&quot;&quot;&gt;/flight/add-flight:&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Input Payload: {&quot;FlightName&quot;: &quot;Boieng777&quot;, &quot;ArrivalDate&quot;: &quot;10-Nov-2023T23:45:50&quot;, &quot;DepartureDate&quot;: &quot;10-Nov-2023T14:43:50&quot;, &quot;AvailableSeats&quot;: 400, &quot;DepartureLocation&quot;: &quot;India/Mumbai&quot;, &quot;ArrivalLocation&quot;: &quot;USA/California&quot;, &quot;Price&quot;: 800}&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Output Payload: {&quot;status&quot;: &quot;200&quot;}&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="400" y="760" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-34" value="&lt;ol&gt;&lt;li&gt;/customer/get/flight:&lt;/li&gt;&lt;li&gt;Input Payload: {&quot;DepartureLocation&quot;: &quot;India/Mumbai&quot;, &quot;ArrivalLocation&quot;: &quot;USA/California&quot;, &quot;Class&quot;: &quot;Business Class/Economy/First Class&quot;, &quot;Date&quot;: &quot;10-Nov-2023&quot;}&lt;/li&gt;&lt;li&gt;Output Payload: [{&quot;FlightName&quot;: &quot;Boeing777&quot;, &quot;flight_id&quot;: &quot;123xx234&quot;, &quot;DepartureLocation&quot;: &quot;India/Mumbai&quot;, &quot;ArrivalLocation&quot;: &quot;USA/California&quot;, &quot;DepartureTime&quot;: &quot;10-Nov-2023T14:43:50&quot;, &quot;ArrivalTime&quot;: &quot;10-Nov-2023T23:45:50&quot;}, {&quot;FlightName&quot;: &quot;Airindia&quot;, &quot;flight_id&quot;: &quot;123xx235&quot;, &quot;DepartureLocation&quot;: &quot;India/Mumbai&quot;, &quot;ArrivalLocation&quot;: &quot;USA/California&quot;, &quot;DepartureTime&quot;: &quot;10-Nov-2023T12:43:50&quot;, &quot;ArrivalTime&quot;: &quot;10-Nov-2023T20:45:50&quot;}]&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1460" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-35" value="Customers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-145" y="-30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D1P4x2Tr9F6RCCxiCrga-36" target="D1P4x2Tr9F6RCCxiCrga-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-36" value="/customer/book-flight/{flight_id}" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="-310" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-39" value="&lt;ol&gt;&lt;li&gt;/customer/book-flight/123xx234:&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1460" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-40" value="&lt;ol&gt;&lt;li&gt;Payment DB Details:&lt;/li&gt;&lt;li&gt;payment_id: primary_key, flirght_id: &quot;123xx234&quot;, &quot;UserName&quot;: &quot;Hari123&quot;, &quot;Price&quot;: 800&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1100" width="310" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="D1P4x2Tr9F6RCCxiCrga-41" value="&lt;ol&gt;&lt;li style=&quot;&quot;&gt;customer/signup:&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Input Payload: {&quot;username&quot;: &quot;Hari123&quot;, &quot;password&quot;: &quot;1234&quot;}&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Output Payload: Bearer Token -&amp;gt; JWT Token&lt;/li&gt;&lt;/ol&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="670" y="485" width="235" height="235" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
