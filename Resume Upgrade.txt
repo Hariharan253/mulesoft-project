@@ -1,0 +1,21 @@
+1) Professional summary should be re worded
+2) Put skill before Work experience
+3) Work Experience:
+	i) Taken responsibility for coding and API development, reviewed codes written by fellow programmers, tested,
+	documented, and deploy. --> Break this line into 3 Points
+	ii) Worked on Various advanced MULESOFT Connectors such as, Veeva Vault, DynamoDB, Outlooks Connectors,
+AWS Lambda Function and many. --> Remove and many
+	iii) Worked with MULESOFT Platform setting up Exchange, API Manager and adding policies to the respective
+APIs --> add publish Assets to Exchange, added API Instances in various environments in API Manager.
+	iv) Worked on Jenkins, Azure, AWS, Bit Bucket to set up DevOps within the project --> Add Azure and AWS in a seperate point as Cloud Services
+	v)  Support MULESOFT architecture process including system, process, and experience APIs. --> Change Architect to API led Connectivity
+	vi) 
+
+4) Projects - iPET:
+	i)  Error Handling Workflow: iPET Tool (MuleSoft Backend API) triggered on organization API errors. --> Mention the errors. (Data and System Errors)
+	ii) User Validation: MuleSoft validates users with Azure OAuth (for Authorization which enables them to do Error Reprocessing).
+	iii) Request Handling: MuleSoft API processes reprocessing requests and utilizes MQ for sequential processing.
+	iv) • Message Queue (MQ) Integration: Sequential handling of reprocessing requests using MQ technology.
+
+5) Skills:
+	i) AWS, Docker, K8S --> Mention Azure
