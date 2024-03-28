@@ -1,0 +1,10 @@
+1) Processing Large Amount of Data
+	i) Watermark - Used for poling Data from DB based on a fixed frequency
+	ii) Streaming - Used to crunch a Large amount of DATA into very small pieces using JAVA and that java utility is called using static java connector and send those chunks into Database one by one.	
+3) SOAP API - Has only one operation, that is Consume
+	i) WSDL - Has the detail for the cosume operation such as Service, PORT, Address, operation for the service
+	ii) Have a transform message and form request based on the WSDL request configuration
+4) SFTP - You need Host, PORT, Username and password to connect to the respective Secure File location
+	i) Based on the permission give to your username, you can perform CRUD operation
+	ii) You can Give Filters to fetch the Files from mulesoft, Like (Atn*), this will bring all the files that start with Atn
+	iii) On or Update - Will connect to File System whenever there is an update in the file system
